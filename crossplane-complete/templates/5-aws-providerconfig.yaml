@@ -23,5 +23,8 @@ metadata:
     argocd.argoproj.io/sync-wave: "50"    
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
+  assumeRoleWithWebIdentity:
+    roleARN: arn:aws:iam::279149243208:role/test-coracare-a2o-eks-crossplane-irsa
+    roleSessionName: crossplane
   credentials:
     source: InjectedIdentity
