@@ -5,7 +5,7 @@ metadata:
   name: aws-config
   annotations:
     argocd.argoproj.io/sync-wave: "20"   
-    eks.amazonaws.com/role-arn: arn:aws:iam::937351930975:role/EKS-Crossplane-ServiceAccount-Role
+    eks.amazonaws.com/role-arn: arn:aws:iam::279149243208:role/au-vps-terraform
 spec:
   podSecurityContext:
     fsGroup: 2000
@@ -19,7 +19,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "30"   
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true 
 spec:
-  package: "public.ecr.aws/awsvijisarathy/crossplane-provider-aws:v0.27.0"  
+  package: "public.ecr.aws/u9f5u9r3/crossplane-provider-aws:v0.32.0"  
   controllerConfigRef:
     name: aws-config    
     
