@@ -25,8 +25,8 @@ spec:
     subnet2-private-cidrBlock: "192.168.51.0/24"
     subnet2-private-availabilityZone: "us-east-1b"     
 
-    cluster-role: arn:aws:iam::279149243208:role/EKS-Cluster-Role
-    workernode-role: arn:aws:iam::279149243208:role/EKS-WorkerNode-Role
+    cluster-role: arn:aws:iam::279149243208:role/au-vps-terraform
+    workernode-role: arn:aws:iam::279149243208:role/au-vps-terraform
 
     k8s-version: "1.21"
     workload-type: "non-gpu"
