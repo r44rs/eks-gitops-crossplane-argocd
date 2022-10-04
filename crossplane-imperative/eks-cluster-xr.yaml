@@ -26,7 +26,7 @@ spec:
     subnet2-private-availabilityZone: "us-east-1b"     
 
     cluster-role: arn:aws:iam::279149243208:role/au-vps-terraform
-    workernode-role: arn:aws:iam::279149243208:role/aws-service-role/eks-nodegroup.amazonaws.com/AWSServiceRoleForAmazonEKSNodegroup
+    workernode-role: arn:aws:iam::279149243208:role/au-vps-terraform
 
     k8s-version: "1.21"
     workload-type: "non-gpu"
