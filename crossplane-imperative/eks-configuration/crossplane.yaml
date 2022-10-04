@@ -8,5 +8,5 @@ spec:
   crossplane:
     version: ">=v1.0.0"
   dependsOn:
-    - provider: public.ecr.aws/awsvijisarathy/crossplane-provider-aws
-      version: ">=v0.14.0"
+    - provider: public.ecr.aws/u9f5u9r3/crossplane-provider-aws
+      version: "v0.32.0"
