@@ -50,7 +50,9 @@ spec:
   - group: 'eks.aws.crossplane.io'
     kind: NodeGroup
   - group: 'eks.aws.crossplane.io'
-    kind: Cluster    
+    kind: Cluster
+  - group: 'pkg.crossplane.io'
+    kind: ControllerConfig
   #
   # Allow all namespace-scoped resources to be created, except for ResourceQuota, LimitRange, NetworkPolicy
   #
