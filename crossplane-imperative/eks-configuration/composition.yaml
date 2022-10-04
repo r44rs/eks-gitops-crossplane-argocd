@@ -10,7 +10,7 @@ metadata:
 spec:
   writeConnectionSecretsToNamespace: crossplane-system
   compositeTypeRef:
-    apiVersion: eks.sarathy.io/v1beta1
+    apiVersion: eks.sandbox.io/v1beta1
     kind: EKSCluster
 
   patchSets:

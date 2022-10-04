@@ -92,7 +92,7 @@ kubectl crossplane install configuration IMAGE_REPO:IMAGE_TAG
 # Check if the package and the XRDs defined in it were installed properly
 #
 kubectl get Configuration crossplane-eks-composition
-kubectl get CompositeResourceDefinition eksclusters.eks.sarathy.io
+kubectl get CompositeResourceDefinition eksclusters.eks.sandbox.io
 
 #
 # Create an EKS cluster and a nodegroup using an XR

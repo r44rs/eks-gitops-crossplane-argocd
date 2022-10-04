@@ -1,5 +1,5 @@
 ---
-apiVersion: eks.sarathy.io/v1beta1
+apiVersion: eks.sandbox.io/v1beta1
 kind: EKSCluster
 metadata:
   name: crossplane-argocd-cluster

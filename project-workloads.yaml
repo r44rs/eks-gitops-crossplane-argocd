@@ -45,7 +45,7 @@ spec:
     kind: Provider        
   - group: 'aws.crossplane.io'
     kind: ProviderConfig     
-  - group: 'eks.sarathy.io'
+  - group: 'eks.sandbox.io'
     kind: EKSCluster      
   - group: 'eks.aws.crossplane.io'
     kind: NodeGroup
